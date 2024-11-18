@@ -1,0 +1,902 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.clr {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+ul {
+    list-style: none;
+}
+
+i {
+    color: #ff305b;
+}
+
+/*start section 1 */
+.container1 {
+    background-image: url("../images/header.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    z-index: 777;
+
+    
+}
+
+.container1 .back {
+    position: absolute;
+
+    z-index: 7777;
+    background-color: rgba(0, 0, 0, 20);
+    opacity: .3;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+
+
+
+
+}
+
+nav {
+    background-color: grey;
+    position: fixed;
+    width: 100%;
+    z-index: 999999999;
+}
+
+
+.logo a {
+
+    /* background-color: aqua; */
+    width: 20%;
+    margin: 30px;
+    display: inline-block;
+    color: #ff305b;
+    font-size: 24px;
+    font-weight: 800;
+
+
+}
+
+
+.menu {
+    width: 50%;
+    display: inline-block;
+    /* background-color: black; */
+    position: absolute;
+    right: 0;
+    top: 30%;
+}
+
+
+.menu ul {
+
+    display: flex;
+
+}
+
+.menu ul li {
+    /* background-color: aqua; */
+    margin: 5px;
+    padding-right: 20px;
+
+}
+
+.menu a {
+    font-size: 16px;
+    font-weight: 300;
+    color: #f2f2f2;
+}
+
+.menu a:hover{
+    color: #ff305b;
+    transition: .5s;
+}
+
+.container1 .caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 77777;
+}
+
+.caption h3,
+h4 {
+    color: #f2f2f2;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.caption h3 {
+    font-size: 24px;
+
+}
+
+.caption h1 {
+    font-size: 70px;
+    color: #ff305b;
+    font-weight: bold;
+}
+
+.caption h4 {
+    /* background-color: black; */
+    height: 50px;
+}
+
+.caption h4 span {
+    width: 5px;
+    height: 200px;
+    /* background: white; */
+    position: relative;
+    animation: myfirst 3s infinite reverse;
+
+}
+
+@keyframes myfirst {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    15% {
+        left: 200px;
+        top: 0px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+/*end section 1 */
+
+
+/*start section 2 */
+
+.container2 {
+    position: relative;
+
+    /* background-color: lightblue; */
+    padding: 150px 200px;
+
+}
+
+.container2 .profil {
+    /* background-color: #ff305b; */
+    width: 40%;
+    float: left;
+
+    padding-bottom: 400px;
+    position: relative;
+
+
+}
+
+.container2 .image {
+    width: 85%;
+    padding: 30px;
+    position: absolute;
+    z-index: 555;
+
+
+}
+
+.container2 .image .icons {
+
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    display: none;
+
+}
+
+
+.container2 .image .icons ul {
+    display: flex;
+}
+
+
+.container2 .image .icons li {
+    padding: 20px;
+}
+
+
+.container2 .image:hover .icons {
+    display: block;
+}
+
+
+
+.container2 .image .back{
+    position: absolute;
+    
+    z-index: 9999;
+    background-color: #999999;
+    opacity: .3;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    
+    /* display: none; */
+    
+    
+
+}
+
+
+
+.container2 .shadow {
+    width: 70%;
+    /* float: left; */
+    position: absolute;
+    box-shadow: #555555 0 0 0 8px inset;
+    border-radius: 5px;
+    width: 300px;
+    height: 380px;
+    z-index: 55;
+
+}
+
+.container2 .caption1 {
+    /* background-color: lightseagreen; */
+
+    width: 60%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-align: left;
+
+    float: left;
+
+
+
+}
+
+.container2 span {
+    color: #ff305b;
+
+}
+
+.container2 h2 {
+    margin: 0 0 20px;
+}
+
+.container2 .caption1 p#pa1 {
+    border-bottom: 1px dashed #999999;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    margin: 0 0 15px;
+    color: #555555;
+    font-size: large;
+
+}
+
+.container2 .details {
+
+    margin-bottom: 15px;
+
+}
+
+.container2 .details i {
+    color: white;
+}
+
+.container2 .details p {
+    float: left;
+
+    font-size: large;
+}
+
+
+.container2 .details #p2 {
+
+    margin-left: 30px;
+
+}
+
+.container2 .details #p4 {
+
+    margin-left: 80px;
+
+}
+
+.container2 .details {
+
+    /* background-color: blueviolet; */
+    padding-bottom: 100px;
+    padding-right: 40px;
+    /* float: left; */
+}
+
+
+
+
+.container2 .details span {
+    color: #333333;
+    font-weight: 500;
+
+}
+
+.container2 .btn {
+
+    float: left;
+    background: #ff305b none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 24px;
+    transition: all .5s ease-in-out;
+    font-size: large;
+}
+
+.container2 .btn:hover {
+
+    transition-property: background;
+    background-color: red;
+
+}
+
+/* end section 2 */
+/* start section 3 */
+
+.container3 {
+    position: relative;
+    background-color: #E9EFEC;
+}
+
+.head {
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.head h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+}
+
+.underline {
+    width: 70px;
+    height: 1px;
+
+    background-color: #ff0000;
+    margin: 0 auto;
+}
+
+.underline2 {
+    width: 150px;
+    height: 2px;
+    background-color: #ff0000;
+    margin: 5px auto;
+}
+
+.container3 .details .content {
+    padding: 40px 15px;
+    transition: all 0.3s ease-in-out 0s;
+    text-align: center;
+    align-items: center;
+    float: left;
+    width: 21%;
+    margin-bottom: 20px;
+    transition: 1s;
+
+
+}
+
+.container3 .details .content:hover {
+
+    transition-property: background-color;
+    background-color: white;
+
+
+}
+
+.container3 .details .content i {
+    width: 50%;
+    color: #ff305b;
+
+    font-size: 36px;
+    padding-bottom: 20px;
+    margin: auto;
+    transition: 1s;
+
+}
+
+
+.container3 .details .content:hover i {
+    transition-property: font-size;
+    font-size: 50px;
+
+}
+
+/* end section 3 */
+/* start section 4 */
+.container4 {
+
+    position: relative;
+}
+
+.container4 .menu-list ul {
+
+
+    display: flex;
+    width: 40%;
+    margin: auto;
+}
+
+.container4 .menu-list ul li {
+
+    margin: auto;
+    padding: 20px;
+}
+
+.Portfolio {
+    /* background-color: #ff0000; */
+
+    padding-left: 50px;
+    margin: 40px;
+}
+
+.Portfolio .content {
+    width: 30%;
+    float: left;
+    margin: 10px;
+    position: relative;
+
+
+
+}
+
+
+.container4 .content .back {
+    position: absolute;
+
+    z-index: 99999;
+    background-color: #999999;
+    opacity: .3;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    display: none;
+
+
+
+}
+
+.container4 .content:hover .back {
+    display: block;
+    transition-duration: 3s;
+
+}
+
+.container4 .content .icon {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    font-size: large;
+
+    display: none;
+
+
+    transition: .5s;
+
+}
+
+.Portfolio .content:hover .icon {
+
+    display: block;
+}
+
+
+
+/* end section 4*/
+
+
+
+/* start section 5*/
+
+
+.container5 {
+    position: relative;
+    background-color: #E9EFEC;
+}
+
+
+.container5 .statistics {
+
+    width: 25%;
+    font: xx-large;
+    float: left;
+    margin: 100px auto;
+    text-align: center;
+    /* font-size: large; */
+}
+
+.container5 i {
+    font-size: x-large;
+}
+
+.container5 h3 {
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.container5 h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #555555;
+    font-size: 16px;
+}
+
+/* end section 5*/
+
+
+/* start section 6*/
+
+.container6 {
+    position: relative;
+    margin: 70px auto;
+}
+
+.container6 .feedback {
+    width: 60%;
+    position: relative;
+    background-color: #E9EFEC;
+    padding: 60px;
+    margin: auto;
+
+}
+
+.feedback .line {
+
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: rotate(180deg);
+    border-left: 200px solid transparent;
+    border-top: 200px solidt transparent;
+    border-bottom: 200px solid #ff305b;
+
+
+}
+
+
+
+.container6 .image {
+    position: relative;
+    width: 15%;
+    float: left;
+    margin: 0 30px 80px 0px;
+    
+
+}
+
+.container6 .image img {
+
+    border: white 1px solid;
+
+    border-radius: 90px;
+}
+
+
+.container6 i#loc {
+
+    color: #555555;
+    margin-right: 10px;
+}
+
+
+.container6 .feedback h4,
+p {
+
+    margin: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #555555;
+    text-align: left;
+
+}
+
+.container6 .star {
+    /* background-color: #ff0000; */
+    padding-left: 100px;
+
+
+}
+
+.container6 i {
+
+    margin-top: 10px;
+    color: gold;
+}
+
+
+/* end section 6*/
+
+
+
+
+/* start section 7*/
+
+.container7 {
+    position: relative;
+    background-color: #E9EFEC;
+   
+    
+}
+
+.container7 .contents {
+    /* background-color: aqua; */
+    
+    margin-top: 50px;
+   
+
+}
+
+.container7 .image {
+    width: 100%;
+
+}
+
+.container7 iframe {
+    width: 100%;
+
+
+}
+
+.container7 .content {
+    width: 23%;
+    float: left;
+    background-color: white;
+    margin-left: 80px;
+    transition: 2s;
+    margin-bottom: 90px;
+
+    
+    
+    
+    
+   
+
+
+}
+
+.container7 .date {
+    text-align: left;
+    font-family: sans-serif;
+   
+    font-size: large;
+    margin: 20px 20px;
+}
+
+.container7 .content h3 {
+    text-align: left;
+    
+    
+    margin: 30px 20px;
+}
+
+.container7 .content h3 a{
+
+    color: #333333;
+    text-transform: capitalize;
+}
+
+.container7 .content h3:hover  a{
+    transition: 1s;
+color: #ff305b;
+}
+
+
+
+.container7 .content p {
+
+    width: 70%;
+
+}
+
+.container7 .read {
+
+    text-align: left;
+
+    width: 50%;
+    margin: 30px 20px;
+    
+}
+.container7 .read a{
+    color: #333333;
+    text-transform: capitalize;
+}
+.container7 .read:hover a{
+    transition: 1s;
+    color: #ff305b;
+}
+.container7 .read i{
+    color: #333333;
+   
+    padding: 2px;
+}
+.container7 .read a:hover i{
+    transition: 1s;
+    color: #ff305b;
+}
+
+/* end section 7*/
+/* start section 8*/
+
+.container8{
+
+    position: relative;
+}
+
+.container8 .info{
+
+    /* background-color: #ff0000; */
+    width: 70%;
+    margin: auto;
+
+    
+
+}
+
+.container8 input{
+    border-radius: 5px;
+    font: 4px;
+    padding-left: 10px;
+    text-align: start;
+    box-sizing: border-box;
+  border: 1px solid #ccc;
+  transition: 0.5s;
+  outline: none;
+   
+    
+}
+.container8 input:focus{
+  border: 1px solid #fa4b4b;
+
+}
+
+
+.container8 input::placeholder{
+    padding-left: 2px;
+}
+
+.container8 .third-line{
+    position: relative;
+}
+
+
+.container8 #name{
+    position: relative;
+    float: left;
+    width: 48%;
+    
+    
+}
+.container8 #email{
+    float: left;
+    width: 48%;
+    margin-left:33px ;
+    
+    
+    
+}
+.container8 .first-line input{
+    
+    height: 40px;
+    width:100% ;
+    margin-bottom: 30px;
+    
+
+}
+.container8 .second-line input{
+    
+    height: 40px;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.container8 .third-line input{
+    
+    
+    width: 100%;
+    margin-bottom: 40px;
+
+}
+
+.container8 .third-line input.message{
+    padding-bottom: 150px;
+}
+
+
+.container8 .btn button{
+    background: #ff305b;
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 24px;
+    transition: all .5s ease-in-out;
+    font-size: medium;
+}
+
+/* end section 8*/
+
+
+/* Footer  */
+
+footer .footer-content{
+    background-color: #2B2B2B;
+   margin-top: 50px;
+    
+}
+
+footer .footer-content .icons ul{
+    display: flex;
+    /* background-color: #ff305b; */
+    
+   width: 20%;
+    margin: auto;
+    padding-top: 50px;
+
+    
+}
+
+footer .icons  li i{
+
+    color: white;
+    margin: 7px;
+    padding: 8px;
+    font-size:large ;
+
+}
+
+
+footer .text{
+    /* background-color: #ff0000; */
+    width:40%;
+    margin:auto;
+    font-size: large;
+    padding-bottom: 50px;
+
+}
+
+footer span{
+    color: #ff305b;
+}
+
+footer  a:hover i{
+    color: #ff305b;
+    transition: .5s;
+
+}
+
+
+
+
